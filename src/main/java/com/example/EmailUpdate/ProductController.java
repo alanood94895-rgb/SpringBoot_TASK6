@@ -11,10 +11,8 @@ import java.util.HashMap;
 @RestController
 public class ProductController {
 
-    // In-memory storage
     private HashMap<Integer, Product> products = new HashMap<>();
 
-    // Constructor to preload sample data
     public ProductController() {
         products.put(1, new Product(1, "Laptop", 10));
     }
