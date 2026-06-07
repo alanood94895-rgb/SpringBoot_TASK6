@@ -36,7 +36,6 @@ public class OrderController {
         order.setShippingAddress(address);
         order.setOrderStatus(status);
 
-        // Return confirmation
         return "Order Updated Successfully\n"
                 + "Order ID: " + order.getOrderId() + "\n"
                 + "Updated Shipping Address: "
@@ -45,4 +44,4 @@ public class OrderController {
                 + order.getOrderStatus();
     }
 }
-}
+
