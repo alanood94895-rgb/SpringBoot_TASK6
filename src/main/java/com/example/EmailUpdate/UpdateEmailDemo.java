@@ -11,8 +11,20 @@ public class UpdateEmailDemo {
         System.out.println("Original Email: " + oldEmail);
         System.out.println("New Email: " + newEmail);
 
+        if (!oldEmail.equalsIgnoreCase(newEmail)) {
 
-    }
+            // Update the email address
+            oldEmail = newEmail;
+
+            // Mark update as successful
+            isUpdated = true;
+
+            System.out.println("Email updated successfully.");
+
+        } else {
+
+
+        }
 
 
 }
