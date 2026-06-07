@@ -3,11 +3,7 @@ package com.example.EmailUpdate;
 public class UserProfileDemo {
     public static void main(String[] args) {
 
-        UserProfile user = new UserProfile(
-                1001,
-                "0712345678",
-                "Muscat, Oman"
-        );
+        UserProfile user = new UserProfile(1001, "0712345678", "Muscat, Oman");
 
         System.out.println("=== Original User Profile ===");
         System.out.println("User ID: " + user.getUserId());
@@ -23,4 +19,4 @@ public class UserProfileDemo {
         System.out.println("Address: " + user.getAddress());
     }
 }
-}
+
