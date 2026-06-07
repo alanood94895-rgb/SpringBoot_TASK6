@@ -13,12 +13,8 @@ public class UpdateEmailDemo {
 
         if (!oldEmail.equalsIgnoreCase(newEmail)) {
 
-            // Update the email address
             oldEmail = newEmail;
-
-            // Mark update as successful
             isUpdated = true;
-
             System.out.println("Email updated successfully.");
 
         } else {
