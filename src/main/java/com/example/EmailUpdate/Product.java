@@ -5,7 +5,6 @@ public class Product {
     private String name;
     private int stockQuantity;
 
-    // Constructor
     public Product(int id, String name, int stockQuantity) {
         this.id = id;
         this.name = name;
