@@ -32,7 +32,6 @@ public class OrderController {
         // Retrieve order
         Order order = orders.get(orderId);
 
-        // Update multiple fields
         order.setShippingAddress(address);
         order.setOrderStatus(status);
 
