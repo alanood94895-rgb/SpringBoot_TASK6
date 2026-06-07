@@ -17,7 +17,6 @@ public class UserProfileDemo {
         user.setPhoneNumber("0798765432");
         user.setAddress("Ruwi, Muscat");
 
-        // Display updated profile information
         System.out.println("\n=== Updated User Profile ===");
         System.out.println("User ID: " + user.getUserId());
         System.out.println("Phone Number: " + user.getPhoneNumber());
