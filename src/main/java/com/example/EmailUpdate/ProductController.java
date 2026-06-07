@@ -17,7 +17,7 @@ public class ProductController {
         products.put(1, new Product(1, "Laptop", 10));
     }
 
-    @PutMapping("/update-stock/{id}")
+    @PutMapping("/updateStock")
     public String updateStock(
             @PathVariable int id,
             @RequestParam int quantity) {
