@@ -24,13 +24,8 @@ public class UpdateEmailDemo {
             System.out.println("No update required. Email address is already current.");
         }
 
-        // Display final email address
         System.out.println("Updated Email: " + oldEmail);
-
-        // Display update status
         System.out.println("Update Status: " + isUpdated);
 
         }
-
-
 }
