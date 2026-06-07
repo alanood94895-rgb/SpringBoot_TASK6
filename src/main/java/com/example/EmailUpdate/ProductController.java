@@ -22,7 +22,6 @@ public class ProductController {
             @PathVariable int id,
             @RequestParam int quantity) {
 
-        // Check if product exists
         if (!products.containsKey(id)) {
             return "Product not found";
         }
