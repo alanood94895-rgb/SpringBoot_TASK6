@@ -5,14 +5,12 @@ public class Order {
     private String shippingAddress;
     private String orderStatus;
 
-    // Constructor
     public Order(int orderId, String shippingAddress, String orderStatus) {
         this.orderId = orderId;
         this.shippingAddress = shippingAddress;
         this.orderStatus = orderStatus;
     }
 
-    // Getters
     public int getOrderId() {
         return orderId;
     }
@@ -25,7 +23,6 @@ public class Order {
         return orderStatus;
     }
 
-    // Setters
     public void setOrderId(int orderId) {
         this.orderId = orderId;
     }
@@ -38,4 +35,4 @@ public class Order {
         this.orderStatus = orderStatus;
     }
 }
-}
+
