@@ -13,7 +13,6 @@ public class OrderController {
     // In-memory storage
     private HashMap<Integer, Order> orders = new HashMap<>();
 
-    // Preload sample order
     public OrderController() {
         orders.put(101,
                 new Order(
