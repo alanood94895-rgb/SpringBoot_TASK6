@@ -16,7 +16,7 @@ public class OrderController {
         orders.put(101, new Order(101, "Muscat", "Pending"));
     }
 
-    @PutMapping("/update-order/{orderId}")
+    @PutMapping("/updateOrder")
     public String updateOrder(
             @PathVariable int orderId,
             @RequestParam String address,
