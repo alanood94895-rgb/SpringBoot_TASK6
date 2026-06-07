@@ -32,7 +32,6 @@ public class ProductController {
 
         product.setStockQuantity(quantity);
 
-        // Return confirmation
         return "Product Updated Successfully\n"
                 + "Product Name: " + product.getName() + "\n"
                 + "Previous Stock: " + previousStock + "\n"
