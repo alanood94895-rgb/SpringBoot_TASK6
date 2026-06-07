@@ -9,7 +9,6 @@ public class UserProfileDemo {
                 "Muscat, Oman"
         );
 
-        // Display original profile information
         System.out.println("=== Original User Profile ===");
         System.out.println("User ID: " + user.getUserId());
         System.out.println("Phone Number: " + user.getPhoneNumber());
