@@ -34,7 +34,6 @@ public class OrderController {
             return "Order not found";
         }
 
-        // Retrieve order
         Order order = orders.get(orderId);
 
         order.setShippingAddress(address);
