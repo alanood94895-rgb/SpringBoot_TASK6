@@ -26,13 +26,10 @@ public class ProductController {
             return "Product not found";
         }
 
-        // Retrieve product
         Product product = products.get(id);
 
-        // Store previous stock
         int previousStock = product.getStockQuantity();
 
-        // Update stock quantity
         product.setStockQuantity(quantity);
 
         // Return confirmation
