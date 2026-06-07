@@ -13,12 +13,7 @@ public class OrderController {
     private HashMap<Integer, Order> orders = new HashMap<>();
 
     public OrderController() {
-        orders.put(101,
-                new Order(
-                        101,
-                        "Muscat",
-                        "Pending"
-                ));
+        orders.put(101, new Order(101, "Muscat", "Pending"));
     }
 
     @PutMapping("/update-order/{orderId}")
