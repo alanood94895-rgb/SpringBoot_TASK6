@@ -10,7 +10,6 @@ import java.util.HashMap;
 
 @RestController
 public class OrderController {
-    // In-memory storage
     private HashMap<Integer, Order> orders = new HashMap<>();
 
     public OrderController() {
