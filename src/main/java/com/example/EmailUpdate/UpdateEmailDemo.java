@@ -6,6 +6,9 @@ public class UpdateEmailDemo {
         String oldEmail = "ahmed@example.com";
         String newEmail = "ali@example.com";
 
+        boolean isUpdated;
+
+
 
     }
 
