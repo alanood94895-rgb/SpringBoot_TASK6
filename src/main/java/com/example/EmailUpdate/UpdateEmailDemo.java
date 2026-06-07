@@ -8,6 +8,8 @@ public class UpdateEmailDemo {
 
         boolean isUpdated;
 
+        System.out.println("Original Email: " + oldEmail);
+        System.out.println("New Email: " + newEmail);
 
 
     }
