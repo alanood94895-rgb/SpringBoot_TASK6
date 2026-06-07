@@ -14,7 +14,6 @@ public class UserProfileDemo {
         System.out.println("Phone Number: " + user.getPhoneNumber());
         System.out.println("Address: " + user.getAddress());
 
-        // Update phone number and address using setter methods
         user.setPhoneNumber("0798765432");
         user.setAddress("Ruwi, Muscat");
 
