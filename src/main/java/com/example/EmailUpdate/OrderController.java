@@ -29,7 +29,6 @@ public class OrderController {
             @RequestParam String address,
             @RequestParam String status) {
 
-        // Check if order exists
         if (!orders.containsKey(orderId)) {
             return "Order not found";
         }
