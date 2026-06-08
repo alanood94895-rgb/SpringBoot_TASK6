@@ -1,6 +1,7 @@
-package com.example.EmailUpdate;
+package com.example.EmailUpdate.Controllers;
 
 
+import com.example.EmailUpdate.Entities.Product;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -17,7 +18,7 @@ public class ProductController {
         products.put(1, new Product(1, "Laptop", 10));
     }
 
-    @PutMapping("/updateStock")
+    @PutMapping("/updateStock/{id}")
     public String updateStock(
             @PathVariable int id,
             @RequestParam int quantity) {

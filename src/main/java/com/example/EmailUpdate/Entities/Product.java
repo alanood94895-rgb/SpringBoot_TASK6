@@ -1,4 +1,4 @@
-package com.example.EmailUpdate;
+package com.example.EmailUpdate.Entities;
 
 public class Product {
     private int id;

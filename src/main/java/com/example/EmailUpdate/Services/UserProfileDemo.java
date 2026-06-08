@@ -1,4 +1,6 @@
-package com.example.EmailUpdate;
+package com.example.EmailUpdate.Services;
+
+import com.example.EmailUpdate.Entities.UserProfile;
 
 public class UserProfileDemo {
     public static void main(String[] args) {
